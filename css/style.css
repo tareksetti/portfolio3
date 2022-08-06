@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+.container{
+    width: 1150px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+
+}
+
+.header .heading{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    border-right: 1px solid darkgray ;
+}
+
+.header .heading h2{
+    width:48%;
+    color: white;
+    line-height: 1.8;
+    font-size: 25px;
+}
+
+.header .heading h2 span:hover{
+    color: #00bcba;
+    cursor:pointer;
+}
+
+.header .lorem{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 100px;
+}
+
+.header .lorem p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgray;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.header .lorem button{
+    border:0;
+    background: none;
+    color: white;
+    font-size: 20px;
+    background:#00bcba ;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+
+/*magna*/
+
+.magna{
+    width:100%;
+    height: 350px;
+    border-bottom: 2px solid #ddd;
+    padding: 50px;
+}
+
+.magna .learn{
+    width: 46%;
+    float: left;
+    border-right: 2px solid grey;
+}
+
+.magna .learn h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+    text-decoration: underline;
+}
+
+.magna .learn p{
+    line-height: 1.9;
+    font-family: 'Times New Roman', Times, serif;
+    color:#888;
+}
+
+.magna .learn button{
+    border:0;
+    background: #fff;
+    border:1px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: #888;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+}
+
+.ipsum{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    visibility: hidden;
+}
+
+.ipsum p{
+    line-height: 1.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#666;
+}
+
+.ipsum i{
+    padding-right: 25px;
+    color:#00bcba ;
+}
+
+
+/*pharetra*/
+.pharetra{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.pharetra .part img{
+    float: left;
+    width: 40%;
+}
+
+.pharetra .part .he{
+    float: left;
+    width:40%;
+    padding-left: 70px;
+    padding-top:50px;
+
+}
+
+.pharetra .part .he h2{
+    color: #777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.pharetra .part .he  p{
+    color: #888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    
+}
+
+.pharetra .part .he  button{
+    background-color: none;
+    border:1px solid #000;
+    width: 150px;
+    border-radius: 20px;
+    padding:15px;
+     color:#777;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor:pointer;
+
+}
+
+.pharetra .part{
+    padding-bottom: 10px;
+    height: 350%;
+}
+
+.pharetra .part .he  button:hover{
+    background-color: #888;
+    color:#fff;
+}
+
+.clear {
+    clear: both;
+}
+
+/*form*/
+
+.form{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.form .inputs{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #DDD;
+}
+
+.form .inputs h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form .inputs p{
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #888;
+}
+
+.form .inputs input[type=text], input[type=email]{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: 0;
+    font-size: 20px;
+}
+
+.form .inputs textarea{
+    width: 532px;
+    outline: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.form .inputs input[type=submit]{
+    width: 150px;
+    border-radius: 20px;
+    border:1px solid #DDD;
+    padding:15px;
+    margin-top: 15px;
+    cursor: pointer;
+    background: white;
+    text-transform: uppercase;
+}
+
+.form .links{
+    float: left;
+    padding-top: 50px;
+    padding-left:50px;
+}
+
+.form .links p{
+    line-height: 2.5;
+}
+
+.form .links p i{
+    padding-right: 25px;
+    color: #00bcba;
+}
+
+/*FOTER*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid #DDD;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+}
